@@ -1,0 +1,25 @@
+{
+  "name": "amc-electrical-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/John-McPherson/amc-electrical-solutions#readme",
+  "bugs": {
+    "url": "https://github.com/John-McPherson/amc-electrical-solutions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-McPherson/amc-electrical-solutions.git"
+  },
+  "license": "ISC",
+  "author": "John McPherson",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.14.0",
+    "typescript": "^5.8.2"
+  }
+}
