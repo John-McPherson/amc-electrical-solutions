@@ -1,5 +1,7 @@
 import lottie, { AnimationItem } from "lottie-web";
 import menuAnimation from "../lottie/burger_menu.json";
+import "../scss/modules/header.scss";
+
 class NavMenu {
   menu: HTMLElement | null;
   menuToggle: HTMLElement | null;
@@ -15,10 +17,10 @@ class NavMenu {
 
     this.animation = this.menuToggle
       ? lottie.loadAnimation({
-          container: this.menuToggle, // Target div
-          renderer: "svg", // Or "canvas" if you prefer
-          loop: false, // Runs once
-          autoplay: false, // Start manually
+          container: this.menuToggle,
+          renderer: "svg",
+          loop: false,
+          autoplay: false,
           animationData: menuAnimation,
         })
       : null;

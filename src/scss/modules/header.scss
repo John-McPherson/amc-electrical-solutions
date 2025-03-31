@@ -1,14 +1,16 @@
+@use "../mixins.scss" as m;
+
 html {
   body {
     .site-header {
       width: 100vw;
-      color: $secondary-light;
+      color: m.$secondary-light;
       nav {
         display: grid;
         padding: 1rem 1rem;
         grid-template-columns: 1fr auto;
         align-items: center;
-        background-color: $primary;
+        background-color: m.$primary;
         align-content: flex-end;
       }
 
@@ -17,7 +19,7 @@ html {
       }
 
       .menu {
-        @include flex_col;
+        @include m.flex_col;
         li {
           padding: 1em 0;
           &:first-of-type {
@@ -35,7 +37,7 @@ html {
       }
 
       h1 {
-        @include heading-text;
+        @include m.heading-text;
       }
 
       @media (min-width: 768px) {
