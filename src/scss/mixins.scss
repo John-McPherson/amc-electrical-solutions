@@ -28,26 +28,15 @@ $gradient-dark: linear-gradient(135deg, #1b262c 0%, #062e4f 100%);
 $font-heading: "Orbitron", sans-serif;
 $font-body: "Poppins", sans-serif;
 
-.grid__container {
-  display: grid;
-}
-
-.flex__container {
+@mixin flex_row {
   display: flex;
-  &__row {
-    flex-direction: row;
-  }
-  &__col {
-    flex-direction: column;
-  }
+  flex-direction: row;
 }
 
-// .container {
-
-//   &.space-between {
-//     justify-content: space-between;
-//   }
-// }
+@mixin flex_col {
+  display: flex;
+  flex-direction: column;
+}
 
 @mixin heading-text {
   font-family: $font-heading;

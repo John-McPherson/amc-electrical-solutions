@@ -17,13 +17,11 @@ html {
       }
 
       .menu {
-        display: flex;
-        flex-direction: column;
-
+        @include flex_col;
         li {
-          padding: 0.75em 0;
+          padding: 1em 0;
           &:first-of-type {
-            padding-top: 1.75rem;
+            padding-top: 2rem;
           }
         }
 
