@@ -13,8 +13,10 @@
         <nav aria-label="Main Navigation">
             <div class="site-header__logo">
                 <h1>
-                    <a href="<?php echo site_url() ?>">
-                        <?php echo get_bloginfo('name'); ?>
+                    <a href="<?php echo esc_url(site_url()); ?>"
+                        title="<?php echo esc_attr(get_bloginfo('name')); ?>"
+                        aria-label="Homepage of <?php echo esc_attr(get_bloginfo('name')); ?>">
+                        <?php echo esc_html(get_bloginfo('name')); ?>
                     </a>
                 </h1>
             </div>
