@@ -43,15 +43,15 @@ $font-body: "Poppins", sans-serif;
   align-items: center;
 }
 
-@mixin heading-large {
-  font-family: $font-heading;
-  font-weight: 900;
-  font-size: 2rem;
+@mixin subtitle {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1em;
   @media (min-width: 768px) {
-    font-size: 3rem;
+    font-size: 1.25rem;
   }
   @media (min-width: 1024px) {
-    font-size: 4rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -71,12 +71,31 @@ $font-body: "Poppins", sans-serif;
   @media (min-width: 768px) {
     font-size: 1.25em;
   }
-  @media (min-width: 1024px) {
-    font-size: 1.5em;
-  }
 }
 
-@mixin heading-text {
+@mixin heading {
+  font-family: $font-heading;
+  font-weight: 900;
+  font-size: 1.5rem;
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+  @media (min-width: 1024px) {
+    font-size: 3rem;
+  }
+}
+@mixin heading-large {
+  font-family: $font-heading;
+  font-weight: 900;
+  font-size: 2rem;
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
+  @media (min-width: 1024px) {
+    font-size: 4rem;
+  }
+}
+@mixin heading-logo {
   font-family: $font-heading;
   font-weight: 900;
   font-size: 1.25rem;
@@ -86,4 +105,15 @@ $font-body: "Poppins", sans-serif;
   @media (min-width: 1024px) {
     font-size: 2.5rem;
   }
+}
+
+@mixin body-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
+  // @media (min-width: 1024px) {
+  //   font-size: 1.25rem;
+  // }
 }

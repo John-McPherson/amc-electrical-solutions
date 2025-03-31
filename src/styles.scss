@@ -7,7 +7,13 @@ html {
     color: m.$text-primary;
   }
 
-  .full-width {
+  section {
+    @include m.flex_col;
+    @include m.flex_center;
     width: 100%;
+    .content {
+      width: 90%;
+      max-width: 1000px;
+    }
   }
 }

@@ -38,7 +38,7 @@ html {
       }
 
       h1 {
-        @include m.heading-text;
+        @include m.heading-logo;
       }
 
       @media (min-width: 768px) {
