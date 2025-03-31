@@ -38,6 +38,44 @@ $font-body: "Poppins", sans-serif;
   flex-direction: column;
 }
 
+@mixin flex_center {
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin heading-large {
+  font-family: $font-heading;
+  font-weight: 900;
+  font-size: 2rem;
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
+  @media (min-width: 1024px) {
+    font-size: 4rem;
+  }
+}
+
+@mixin button {
+  background: $gradient-primary;
+  min-height: 40px;
+  border-radius: 2em;
+  color: $secondary;
+
+  font-weight: 900;
+  @include flex_center;
+  @include flex_row;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 1em 3em;
+  flex-grow: 0;
+  @media (min-width: 768px) {
+    font-size: 1.25em;
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.5em;
+  }
+}
+
 @mixin heading-text {
   font-family: $font-heading;
   font-weight: 900;

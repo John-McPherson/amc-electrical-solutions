@@ -1,5 +1,6 @@
 import "normalize.css";
 import "./styles.scss";
+import "./scss/modules/hero.scss";
 import "./scss/resets.scss";
 
 import NavMenu from "./modules/NavMenu";
