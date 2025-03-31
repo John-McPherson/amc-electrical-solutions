@@ -1,0 +1,62 @@
+// Primary Colors (Electric, High-Tech Feel)
+$primary: #0f4c75; // Deep Electric Blue
+$primary-dark: #062e4f; // Midnight Blue
+$primary-light: #3282b8; // Bright Sky Blue
+
+// Secondary Colors (Energy & Power)
+$secondary: #ffb400; // High Voltage Yellow-Orange
+$secondary-dark: #e09b00; // Darker Amber
+$secondary-light: #ffd166; // Lighter Warm Yellow
+
+// Neutral Colors (Backgrounds & Text)
+$background-light: #f5f5f5; // Off-White Light Theme
+$background-dark: #1b262c; // Deep Charcoal Dark Theme
+$text-primary: #0a0a0a; // Strong Black for Readability
+$text-secondary: #5c677d; // Muted Cool Gray for Secondary Elements
+
+// Accent Colors (For Highlights, Alerts, etc.)
+$accent-electric: #06d6a0; // Neon Green for Energy Boost
+$accent-red: #ef233c; // Electric Red for Warnings
+$accent-blue: #3a86ff; // Bright Cyan for Call-to-Actions
+
+// Gradients (For Buttons, Banners, etc.)
+$gradient-primary: linear-gradient(135deg, #0f4c75 0%, #3282b8 100%);
+$gradient-electric: linear-gradient(135deg, #06d6a0 0%, #ffb400 100%);
+$gradient-dark: linear-gradient(135deg, #1b262c 0%, #062e4f 100%);
+
+// Font Variables
+$font-heading: "Orbitron", sans-serif;
+$font-body: "Poppins", sans-serif;
+
+.grid__container {
+  display: grid;
+}
+
+.flex__container {
+  display: flex;
+  &__row {
+    flex-direction: row;
+  }
+  &__col {
+    flex-direction: column;
+  }
+}
+
+// .container {
+
+//   &.space-between {
+//     justify-content: space-between;
+//   }
+// }
+
+@mixin heading-text {
+  font-family: $font-heading;
+  font-weight: 900;
+  font-size: 1.25rem;
+  @media (min-width: 768px) {
+    font-size: 1.75rem;
+  }
+  @media (min-width: 1024px) {
+    font-size: 2.5rem;
+  }
+}

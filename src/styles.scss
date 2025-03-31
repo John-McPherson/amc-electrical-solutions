@@ -1,2 +1,12 @@
 @import "normalize.css";
 @import "./scss/resets.scss";
+@import "./scss/mixins.scss";
+@import "./scss/modules/header.scss";
+
+html {
+  body {
+    background-color: $background-light;
+    font-family: $font-body;
+    color: $text-primary;
+  }
+}
