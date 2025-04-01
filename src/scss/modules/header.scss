@@ -39,6 +39,9 @@ html {
 
       h1 {
         @include m.heading-logo;
+        span {
+          font-size: 80%;
+        }
       }
 
       @media (min-width: 768px) {

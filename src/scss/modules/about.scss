@@ -20,6 +20,9 @@ html {
           color: m.$secondary;
           max-width: 600px;
           margin-bottom: 2rem;
+          span {
+            font-size: 80%;
+          }
         }
         ul {
           margin-top: 0.75rem;

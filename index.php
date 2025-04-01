@@ -25,7 +25,7 @@
         <div>
             <h3>About</h3>
             <h2>
-                AMC Electrical Solutioins
+                <?php echo esc_html(get_bloginfo('name')); ?> <span> <?php echo esc_html(get_bloginfo('description')); ?></span>
             </h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ullam dicta saepe numquam nisi fugit? Iure cum veritatis similique cupiditate tempore deserunt mollitia labore nisi dignissimos voluptates, natus ducimus assumenda.
@@ -40,6 +40,115 @@
             </ul>
         </div>
     </div>
+</section>
+
+<!-- services -->
+
+<section class="services" id="services">
+    <h2>our services</h2>
+    <section id="domestic-services" class="service">
+        <div class="content">
+            <div class="card title">
+                <h3>Domestic</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </div>
+    </section>
+    <section id="comercial-services" class="service">
+        <div class="content">
+            <div class="card title">
+                <h3>comercial</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </div>
+    </section>
+    <section id="industrial-services" class="service">
+        <div class="content">
+            <div class="card title">
+                <h3>industrial</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="card">
+                <h3>Testing</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </div>
+    </section>
+
 </section>
 
 

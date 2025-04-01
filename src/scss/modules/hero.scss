@@ -30,7 +30,7 @@ html {
         border-radius: 5em;
         h2 {
           @include m.heading-large;
-          color: m.$secondary;
+          color: m.$primary;
           max-width: 600px;
         }
         p {

@@ -17,6 +17,7 @@
                         title="<?php echo esc_attr(get_bloginfo('name')); ?>"
                         aria-label="Homepage of <?php echo esc_attr(get_bloginfo('name')); ?>">
                         <?php echo esc_html(get_bloginfo('name')); ?>
+                        <span> <?php echo esc_html(get_bloginfo('description')); ?></span>
                     </a>
                 </h1>
             </div>
@@ -28,7 +29,7 @@
             </button>
             <ul class="menu " id="main-menu" role="menu" aria-labelledby="menu-toggle">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
