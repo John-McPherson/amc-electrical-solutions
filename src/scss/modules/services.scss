@@ -3,6 +3,7 @@
 html {
   body {
     .services {
+      padding-bottom: 2rem;
       .service {
         &:last-of-type {
           .content {
@@ -35,8 +36,9 @@ html {
         &.title {
           background-color: m.$primary-dark;
           color: m.$text-primary;
-          //   box-shadow: unset;
+          grid-column: 1 / span 2;
           h3 {
+            @include m.subtitle-large;
             color: m.$text-primary;
             border-bottom: 2px solid m.$text-primary;
           }
@@ -59,7 +61,7 @@ html {
         }
         h3 {
           color: m.$primary-dark;
-          @include m.subtitle-large;
+          @include m.subtitle;
           padding-bottom: 1rem;
           border-bottom: 2px solid m.$primary-dark;
         }
