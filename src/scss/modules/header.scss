@@ -36,11 +36,18 @@ html {
           &:first-of-type {
             padding-top: 2rem;
           }
+          a {
+            &.active {
+              color: yellow;
+            }
+          }
         }
-
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #fff;
+        a,
+        button {
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #fff;
+        }
         height: 0;
         overflow: hidden;
 

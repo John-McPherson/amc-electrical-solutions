@@ -3,7 +3,7 @@
 
 <!-- hero section with image -->
 
-<section class="hero" style="background-image: url('<?php echo get_theme_file_uri('images/site-hero.jpg'); ?>');">
+<section data-section="hero" class="hero" id="hero" style="background-image: url('<?php echo get_theme_file_uri('images/site-hero.jpg'); ?>');">
     <div class="content">
         <h2>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -20,7 +20,7 @@
 
 <!-- about section -->
 
-<section class="about" id="about">
+<section data-section="about" class="about" id="about">
     <div class="content">
         <div>
             <h3>About</h3>
@@ -44,7 +44,7 @@
 
 <!-- services -->
 
-<section class="services" id="services">
+<section data-section="services" class="services" id="services">
     <h2>our services</h2>
     <section id="domestic-services" class="service">
         <div class="content">

@@ -8,9 +8,12 @@ class NavMenu {
   isOpen: boolean;
   menuSize: number;
   animation: AnimationItem | null;
+  sections: NodeListOf<Element>;
+  observer: IntersectionObserver;
 
   constructor() {
     this.isOpen = false;
+    this.sections = document.querySelectorAll("[data-section]");
     this.menu = document.querySelector(".menu");
     this.menuSize = this.menu ? this.menu.scrollHeight : 0;
     this.menuToggle = document.querySelector(".menu-toggle");
@@ -25,6 +28,22 @@ class NavMenu {
         })
       : null;
 
+    this.observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && entry.target instanceof HTMLElement) {
+            console.log(entry.target.dataset.section + " is intersecting");
+            document.querySelector("nav .active")?.classList.remove("active");
+            document
+              .querySelector(`nav a[href="#${entry.target.dataset.section}"]`)
+              ?.classList.add("active");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+    if (this.sections)
+      this.sections.forEach((sec) => this.observer.observe(sec));
     this.events();
   }
 

@@ -28,10 +28,10 @@
 
             </button>
             <ul class="menu " id="main-menu" role="menu" aria-labelledby="menu-toggle">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><button>contact</button></li>
             </ul>
         </nav>
     </header>
