@@ -36,7 +36,9 @@ html {
         &.title {
           background-color: m.$primary-dark;
           color: m.$text-primary;
-          grid-column: 1 / span 2;
+          @media (min-width: 600px) {
+            grid-column: 1 / span 2;
+          }
           h3 {
             @include m.subtitle-large;
             color: m.$text-primary;
