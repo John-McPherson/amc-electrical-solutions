@@ -152,6 +152,43 @@
 </section>
 
 
+<section class="reviews" id="reviews">
+    <div class="content swiper review-carousel">
+        <h2>reviews</h2>
+        <div class="swiper-wrapper review-carousel-wrapper">
+            <div class="swiper-slide review review-carousel-slide">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae eos a debitis saepe dolore officiis. Cum odit quibusdam voluptates illo quod ratione obcaecati, facere reiciendis, accusamus adipisci nemo, accusantium iusto!</p>
+                <a href="" target="_blank" rel="noopener noreferer" class="btn">
+                    <h3>Name - Site</h3>
+                </a>
+
+            </div>
+            <div class="swiper-slide review review-carousel-slide">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae eos a debitis saepe dolore officiis. Cum odit quibusdam voluptates illo quod ratione obcaecati, facere reiciendis, accusamus adipisci nemo, accusantium iusto!</p>
+                <a href="" target="_blank" rel="noopener noreferer" class="btn">
+                    <h3>Name - Site</h3>
+                </a>
+
+            </div>
+            <div class="swiper-slide review review-carousel-slide">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae eos a debitis saepe dolore officiis. Cum odit quibusdam voluptates illo quod ratione obcaecati, facere reiciendis, accusamus adipisci nemo, accusantium iusto!</p>
+                <a href="" target="_blank" rel="noopener noreferer" class="btn">
+                    <h3>Name - Site</h3>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+</section>
+
+
 <?php wp_footer(); ?>
 </body>
 

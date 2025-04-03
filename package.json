@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "lottie-web": "^5.12.2",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "swiper": "^11.2.6"
   }
 }
