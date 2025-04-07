@@ -16,7 +16,7 @@ $text-secondary: #b0b0b0; // Muted Gray for Secondary Elements
 
 // Accent Colors (For Highlights, Alerts, etc.)
 $accent-electric: #ff3b3b; // Neon Red for Energy Boost
-$accent-red: #d10000; // Electric Red for Warnings
+$accent-warning: #d10000; // Electric Red for Warnings
 $accent-dark-red: #8b0000; // Deep Alert Red
 
 // Gradients (For Buttons, Banners, etc.)
@@ -123,6 +123,17 @@ $font-body: "Poppins", sans-serif;
   @media (min-width: 1024px) {
     font-size: 2.5rem;
   }
+}
+
+@mixin body-text-med {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+  }
+  // @media (min-width: 1024px) {
+  //   font-size: 1.25rem;
+  // }
 }
 
 @mixin body-text-large {

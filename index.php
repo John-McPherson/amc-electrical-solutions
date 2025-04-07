@@ -12,9 +12,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quo, eos. Minus ad tempora voluptatibus placeat aliquid nulla, enim aliquam eum quos eligendi natus rem dignissimos explicabo saepe ipsam! Minima, possimus!
         </p>
-        <a class="btn" href="#contact">
-            contact
-        </a>
+        <button class="btn" data-open="contact"=>
+            Get in Touch
+        </button>
     </div>
 </section>
 
@@ -186,6 +186,34 @@
 
 
 
+</section>
+
+
+<section id="modals" class="modals">
+    <div class="overlay">
+        <div class="modal contact" id="contact">
+            <h2>Get in touch</h2>
+            <button class="close">x</button>
+            <ul>
+                <li>
+                    <a href="tel:+447831495512">
+                        <i class="fa-solid fa-mobile-screen"></i>: 07831 495512
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:test@test.com">
+                        <i class="fa-solid fa-envelope"></i>: test@test.com
+                    </a>
+                </li>
+            </ul>
+            <div class="form">
+                <?php echo do_shortcode('[contact-form-7 id="f7c315d" title="Contact form 1"]'); ?>
+            </div>
+            <button class="btn" data-submit="contact-form-submit">Send</button>
+        </div>
+
+    </div>
 </section>
 
 
